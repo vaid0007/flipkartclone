@@ -1,0 +1,73 @@
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+      display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+      display: block;
+    }
+  }
+
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+
+  /* medium and up screens */
+  @media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+    transform: translateX(0);
+  }
+
+  @media only screen and (max-width: 768px) {
+  .center{
+    margin-left: 200  px;
+  }
+}
+
+
+
+.header1 input{
+	width: 100%;
+	background-color: #f0f5ff;
+	border-radius: 6px;
+	border:0px;
+}
+
+
+
+.loginli .login:hover{background-color: blue; color: white;}
+.loginli:hover .dropdown-menu{display: block;}
+
+
+
+
+
+
+.menu a:hover{color: blue;}
+.menu:hover .dropdown-menu{display:block;}
+
+.card{
+  margin: 20px;
+}
+
+
+#hun a{
+  color: white;
+  font-size: 20px;
+}

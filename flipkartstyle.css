@@ -42,12 +42,16 @@
 
 
 
+/*.........................../////searchbar/////.........................*/
 .header1 input{
-	width: 100%;
+	width: 80%;
 	background-color: #f0f5ff;
 	border-radius: 6px;
 	border:0px;
 }
+
+
+/*............................../////login button/////...........................*/
 
 
 
@@ -56,18 +60,30 @@
 
 
 
-
+/*............................./////menu section/////.............................*/
 
 
 .menu a:hover{color: blue;}
 .menu:hover .dropdown-menu{display:block;}
 
+
+/*............................/////card section/////...........................
+*/
 .card{
   margin: 20px;
 }
 
 
-#hun a{
+
+/*........................./////footer/////...........................*/
+
+#hun p{
   color: white;
   font-size: 20px;
+}
+
+
+.set p {
+  margin-left: 10px;
+  margin-right: 10px;
 }
